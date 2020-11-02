@@ -13,16 +13,10 @@
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="./css/all.css">
 
-
-  <!-- --------- Owl-Carousel ------------------->
-  <link rel="stylesheet" href="./css/owl.carousel.min.css">
-  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-
-  <!-- ------------ AOS Library ------------------------- -->
-  <link rel="stylesheet" href="./css/aos.css">
-
   <!-- Custom Style   -->
   <link rel="stylesheet" href="./css/Style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
@@ -32,33 +26,31 @@
     
 <!---------------------------------------Navigation tab---------------------->
 
-<nav class="navbar nav-pills bg-light justify-content-end flex-fill navbar-expand-sm" style ="background-color: rgb(255, 136, 0);">
-    <div class="container">
-        <a class="navbar-brand">
-            <img class="rounded" src="assets/logo.jpg" alt="Web Development" style="width: auto; height: 50px;"></img>
-        </a>
-        <div style="font-family: 'Livvic';font-size: 30px;">SkillBuzz.<small>com</small></div>
 
-       <button class="navbar-toggler" type="button"
-       data-toggle="collapse" aria-controls="#myToggleNav"
-       data-target="#myToggleNav" aria-expanded="true" aria-label="Toggle navigation">
-    <div class="navbar-toggler-icon"></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img class="rounded" src="assets/logo.jpg" alt="Web Development" style="width: auto; height: 50px;"></img>
+    </a>
+    <div style="font-family: 'Livvic';font-size: 30px;">SkillBuzz.<small>com</small></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-        <div class="collapse navbar-collapse" id="myToggleNav">
-            <div class="navbar-nav ml-sm-auto">
-                <a class="nav-item nav-link flex-row nav-list" href="#">Live Classes</a>
-                <a class="nav-item nav-link nav-list" href="#">Video Library</a>
-                <a class="nav-item nav-link nav-list" href="#">Course</a>
-                <a class="nav-item nav-link nav-list" href="#">Book</a>
-                <a class="nav-item nav-link nav-list" href="#">Board</a>
-                <a class="nav-item nav-link nav-list " href="#">Exam</a>
-            </div>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav ml-sm-auto">
+            <a class="nav-item nav-link flex-row nav-list" href="#">Live Classes</a>
+            <a class="nav-item nav-link nav-list" href="#">Video Library</a>
+            <a class="nav-item nav-link nav-list" href="#">Course</a>
+            <a class="nav-item nav-link nav-list" href="#">Book</a>
+            <a class="nav-item nav-link nav-list" href="#">Board</a>
+            <a class="nav-item nav-link nav-list " href="#">Exam</a>
         </div>
-       
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
-</nav>
-
+  </nav>
 
 <!----------x-------------Navigation tab----------------------->
 
@@ -288,7 +280,7 @@
 
 
         <!----------------tutors--------------------------->
-        <br><br>  <h1 class="text-center" ><strong class="nav-list">Meet our </strong> <light class="text-warning">export tutors</light></h1>
+        <br><br>  <h1 class="text-center" ><strong class="nav-list">Meet our </strong> <light class="text-warning">expert tutors</light></h1>
        <br><br> <div class="container" id="tutor-backgnd">
           <br>  <div class="col">
                 <div class="row">
@@ -365,6 +357,7 @@
   <!-- Footer -->
 
     <script src="css/bootstrap.min.css"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
 </body>

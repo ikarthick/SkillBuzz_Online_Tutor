@@ -31,6 +31,8 @@ html, body{
 }
 
 
+
+
 /* ---------------- Global Classes ---------------*/
 
 a{
@@ -38,7 +40,7 @@ a{
     color: var(--text-gray);
 }
 
-.flex-row{
+.flex-row1{
     display: flex;
     flex-direction: row;    
     flex-wrap: wrap;
